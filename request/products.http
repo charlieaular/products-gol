@@ -1,0 +1,33 @@
+@apiUrl = http://localhost:9000/v1
+
+###
+GET {{apiUrl}}/products
+Content-Type: application/json
+
+###
+DELETE  {{apiUrl}}/products/2
+Content-Type: application/json
+
+###
+POST {{apiUrl}}/products
+Content-Type: application/json
+
+{
+    "sku": "sku",
+    "name": "name",
+    "brand": "brand",
+    "price": 123123,
+    "size": "size"
+}
+
+###
+PUT {{apiUrl}}/products/3
+Content-Type: application/json
+
+{
+    "sku": "SKU-3",
+    "name": "OTRO",
+    "brand": "NUEVO BRAND",
+    "price": 1000,
+    "size": "XL"
+}
