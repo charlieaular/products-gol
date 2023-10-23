@@ -9,3 +9,5 @@ WORKDIR /workspaces/products-go
 RUN go install github.com/cosmtrek/air@latest
 
 COPY go.mod go.sum ./
+
+EXPOSE 9000
