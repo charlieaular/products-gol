@@ -3,7 +3,7 @@
 This project was created following clean architecture.
 I choose this architecture because it has advantages like scalability, maintainability and modularity and follows SOLID principles.
 
-I created this project in clean architecture because i would like to show you that i can create software with clean architecture.
+I created this project in clean architecture because i would like show that i can create software with clean architecture.
 I'm also familiar with other design patterns such as MVC, command/query, layered architecture.
 
 The choice of a design pattern depends on the project's type and requirements.
