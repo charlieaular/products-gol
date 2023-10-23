@@ -20,7 +20,7 @@ Run
 docker run -p 9000:9000 productsgo:latest
 ```
 
-## Inside container or package manager
+## Inside container or in your OS
 
 ```
 go mod tidy
